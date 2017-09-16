@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "windows"
+        label "master"
     }
     tools {
         maven 'Maven3.1.1'
